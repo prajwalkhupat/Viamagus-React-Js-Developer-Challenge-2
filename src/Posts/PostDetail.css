@@ -1,0 +1,51 @@
+
+.post-detail-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .post-detail {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  } 
+  
+  .post-detail h1 {
+    margin-bottom: 16px;
+  }
+  
+  .post-detail h2 {
+    margin-bottom: 8px;
+  }
+  
+  .post-detail p {
+    line-height: 1.6;
+  }
+  
+  .back-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background: linear-gradient(
+      to right,
+      #4f4848,
+      #494040,
+      #544d4d
+    );
+    color: #e7d5d5;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Add box shadow for a subtle lift effect */
+    
+  }
+  
+  .back-button:hover {
+    background-color: #2a75af; /* Change background color on hover */
+    cursor: pointer;
+  }
